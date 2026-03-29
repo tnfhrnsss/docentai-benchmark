@@ -1,0 +1,319 @@
+{
+  "metadata": {
+    "version": "1.1.0",
+    "description": "Korean subtitle explanation benchmark dataset for DocentAI",
+    "total_cases": 15,
+    "categories": ["slang", "classical", "dialect"],
+    "models_tested": ["gemini-2.0-flash", "kanana-2"],
+    "created_by": "tnfhrnsss",
+    "repo": "https://github.com/tnfhrnsss/docentai-benchmark"
+  },
+  "test_cases": [
+    {
+      "id": "A-01",
+      "category": "slang",
+      "category_ko": "속어·신조어",
+      "source": "환승연애3",
+      "platform": "tving",
+      "genre": "dating_reality",
+      "difficulty": "medium",
+      "subtitle": "TMI인데 나 걔한테 솔직히 어장이었잖아. 근데 지금은 찐이야.",
+      "context_before": ["이제 우리 어떻게 할 거야?"],
+      "context_after": ["그 말이 진짜야?"],
+      "keywords": ["TMI", "어장", "찐"],
+      "expected_explanation_points": [
+        "어장 - 관심 없으면서 붙잡아두는 연애 행동을 낚시에 비유한 신조어",
+        "TMI - Too Much Information의 줄임말, 불필요하게 과한 정보 공유",
+        "찐 - '진짜'의 신조어, 진심임을 강조",
+        "연애 예능 맥락: 전 연인 관계에서 현재 감정 변화를 고백하는 장면"
+      ],
+      "notes": "MZ세대 연애 예능의 전형적인 신조어 밀집 자막"
+    },
+    {
+      "id": "A-02",
+      "category": "slang",
+      "category_ko": "속어·신조어",
+      "source": "나는 솔로",
+      "platform": "ebs",
+      "genre": "dating_reality",
+      "difficulty": "medium",
+      "subtitle": "오빠 완전 킹받는다. 그냥 갈려버리고 싶어.",
+      "context_before": ["오빠 어제 왜 그랬어?"],
+      "context_after": ["좀 쉬어. 무리하지 말고."],
+      "keywords": ["킹받다", "갈리다"],
+      "expected_explanation_points": [
+        "킹받다 - '극도로 화나다'의 신조어 (킹 + 열받다 합성)",
+        "갈리다 - '지치다', '힘들어 무너지고 싶다'는 표현",
+        "데이트 상황에서 상대방 행동에 대한 불만 표출"
+      ],
+      "notes": "감정 표현 신조어 중심"
+    },
+    {
+      "id": "A-03",
+      "category": "slang",
+      "category_ko": "속어·신조어",
+      "source": "스트리트 우먼 파이터 2",
+      "platform": "mnet",
+      "genre": "competition_reality",
+      "difficulty": "easy",
+      "subtitle": "야 쟤 칼군무 실화냐? 완전 찢었다.",
+      "context_before": ["저 팀 진짜 연습 많이 했겠다."],
+      "context_after": ["우리도 저 정도는 해야 하는 거 아니야?"],
+      "keywords": ["칼군무", "찢다", "실화냐"],
+      "expected_explanation_points": [
+        "칼군무 - 칼같이 맞아떨어지는 군무, 동작이 완벽히 일치하는 단체 퍼포먼스",
+        "찢다 - 퍼포먼스가 압도적으로 뛰어날 때 쓰는 표현",
+        "실화냐 - 믿기 어려울 정도로 놀랍다는 감탄 표현",
+        "댄스 서바이벌 맥락에서 상대 팀 실력에 대한 경탄"
+      ],
+      "notes": "퍼포먼스 관련 신조어 집중"
+    },
+    {
+      "id": "A-04",
+      "category": "slang",
+      "category_ko": "속어·신조어",
+      "source": "유퀴즈 온더블럭",
+      "platform": "tvn",
+      "genre": "variety",
+      "difficulty": "medium",
+      "subtitle": "요즘 애들은 갓생 산다고 하더라고요. 저는 오히려 핵인싸인데.",
+      "context_before": ["요즘 젊은 분들은 어떻게 사세요?"],
+      "context_after": ["아, 그게 무슨 말이에요?"],
+      "keywords": ["갓생", "핵인싸"],
+      "expected_explanation_points": [
+        "갓생 - God(갓) + 생(생활), 부지런하고 생산적인 삶을 사는 것",
+        "핵인싸 - '핵-'(매우)+'인싸'(인사이더), 사교적이고 무리에 잘 섞이는 사람",
+        "예능 인터뷰에서 세대 간 언어 차이를 드러내는 맥락"
+      ],
+      "notes": "세대 차이 드러나는 신조어"
+    },
+    {
+      "id": "A-05",
+      "category": "slang",
+      "category_ko": "속어·신조어",
+      "source": "케이팝 데뷔 전쟁",
+      "platform": "mnet",
+      "genre": "idol_survival",
+      "difficulty": "hard",
+      "subtitle": "솔직히 오늘 무대 좀 억까 아니었어? 나만 그렇게 느낀 거야?",
+      "context_before": ["오늘 심사 결과 어때 보여?"],
+      "context_after": ["나도 그런 것 같아."],
+      "keywords": ["억까"],
+      "expected_explanation_points": [
+        "억까 - '억지로 까다'의 줄임말, 근거 없이 부당하게 비판하는 행위",
+        "아이돌 서바이벌에서 심사 결과에 불만을 제기하는 맥락",
+        "팬덤 문화에서 자주 쓰이는 표현"
+      ],
+      "notes": "아이돌 팬덤 특화 신조어"
+    },
+    {
+      "id": "B-01",
+      "category": "classical",
+      "category_ko": "사극·고어체",
+      "source": "태종 이방원",
+      "platform": "kbs",
+      "genre": "historical_drama",
+      "difficulty": "hard",
+      "subtitle": "경은 과인의 뜻을 어찌 헤아리지 못하는가. 이는 사직을 위함이오.",
+      "context_before": ["전하, 신의 생각이 다르옵니다."],
+      "context_after": ["황공하옵니다, 전하."],
+      "keywords": ["경", "과인", "사직"],
+      "expected_explanation_points": [
+        "경(卿) - 임금이 신하를 부르는 2인칭 호칭",
+        "과인(寡人) - 왕의 1인칭 겸양어, '덕이 부족한 사람'이라는 의미",
+        "사직(社稷) - 토지신과 곡식신, 나라 자체를 의미하는 표현",
+        "태종 이방원의 왕권 강화 과정에서 신하를 압박하는 장면 맥락"
+      ],
+      "notes": "조선 왕실 격식체 집중"
+    },
+    {
+      "id": "B-02",
+      "category": "classical",
+      "category_ko": "사극·고어체",
+      "source": "옷소매 붉은 끝동",
+      "platform": "mbc",
+      "genre": "historical_romance",
+      "difficulty": "hard",
+      "subtitle": "상감마마, 어찰을 받자옵기 황공하오나 소인은 감히 받들 수 없사옵니다.",
+      "context_before": ["이 어찰을 궁녀에게 전하거라."],
+      "context_after": ["어찌 감히 과인의 뜻을 거스르는가."],
+      "keywords": ["상감마마", "어찰", "황공", "소인"],
+      "expected_explanation_points": [
+        "상감마마 - 임금을 높여 부르는 호칭",
+        "어찰(御札) - 임금이 직접 쓴 편지",
+        "황공(惶恐)하다 - 두렵고 송구스럽다",
+        "소인(小人) - 신분이 낮은 사람의 1인칭 겸양어",
+        "궁중 복잡한 위계 표현 및 거절의 완곡한 표현"
+      ],
+      "notes": "궁중 어체 및 경어 집중"
+    },
+    {
+      "id": "B-03",
+      "category": "classical",
+      "category_ko": "사극·고어체",
+      "source": "킹덤",
+      "platform": "netflix",
+      "genre": "historical_zombie",
+      "difficulty": "medium",
+      "subtitle": "이 역병은 생사초에서 비롯된 것이오. 세자저하, 통촉하여 주시옵소서.",
+      "context_before": ["이 역병은 도대체 어디서 온 것이오."],
+      "context_after": ["생사초... 그것이 무엇이오?"],
+      "keywords": ["생사초", "세자저하", "통촉"],
+      "expected_explanation_points": [
+        "생사초(生死草) - 킹덤 세계관의 가상 식물, 죽은 자를 살리는 소재",
+        "세자저하(世子邸下) - 왕세자에 대한 경칭",
+        "통촉(洞燭)하다 - 사정을 환히 살펴 헤아려 주다",
+        "조선 좀비물 특유의 사극 어체와 판타지 설정이 혼합된 맥락"
+      ],
+      "notes": "장르 혼합(사극+좀비)으로 복잡도 높음"
+    },
+    {
+      "id": "B-04",
+      "category": "classical",
+      "category_ko": "사극·고어체",
+      "source": "연모",
+      "platform": "kbs",
+      "genre": "historical_romance",
+      "difficulty": "hard",
+      "subtitle": "전하, 소인은 미천한 몸으로 성은이 망극하여 이리 달려왔사옵니다.",
+      "context_before": ["전하께서 소인을 찾으셨다 들었습니다."],
+      "context_after": ["일어나라. 할 말이 있느니라."],
+      "keywords": ["전하", "소인", "성은이 망극"],
+      "expected_explanation_points": [
+        "전하(殿下) - 임금에 대한 경칭",
+        "성은이 망극(聖恩罔極)하다 - 임금의 은혜가 끝없이 감사하다는 최고 경의 표현",
+        "미천(微賤)하다 - 신분이 낮고 보잘것없다",
+        "왕에게 충성을 맹세하는 전형적인 궁중 장면"
+      ],
+      "notes": "성은이 망극 숙어 해석이 핵심"
+    },
+    {
+      "id": "B-05",
+      "category": "classical",
+      "category_ko": "사극·고어체",
+      "source": "조선 변호사",
+      "platform": "kbs",
+      "genre": "historical_legal",
+      "difficulty": "medium",
+      "subtitle": "이 송사는 단순한 재물 다툼이 아니오. 백성의 억울함을 풀어주는 것이 사또의 도리외다.",
+      "context_before": ["이번 사건, 어떻게 볼 것이오?"],
+      "context_after": ["그 말이 맞소이다."],
+      "keywords": ["송사", "사또", "도리"],
+      "expected_explanation_points": [
+        "송사(訟事) - 법적 분쟁, 소송",
+        "사또 - 고을의 수령(관리)을 부르는 호칭",
+        "도리(道理) - 마땅히 해야 할 의무와 본분",
+        "조선시대 법정 드라마 특유의 민중 사법 접근 맥락"
+      ],
+      "notes": "법정 + 사극 장르 결합"
+    },
+    {
+      "id": "C-01",
+      "category": "dialect",
+      "category_ko": "방언·사투리",
+      "source": "이상한 변호사 우영우",
+      "platform": "eна",
+      "genre": "legal_drama",
+      "difficulty": "medium",
+      "subtitle": "아이고 이 양반이 와 이라노. 우리 동네 이거 우찌 되는 교?",
+      "context_before": ["우리 동네가 어떻게 되는 거야?"],
+      "context_after": ["걱정 마이소. 변호사 선생님이 해결해 주실 거라카더라."],
+      "keywords": ["와 이라노", "우찌", "-교", "-노"],
+      "dialect": "경상도",
+      "expected_explanation_points": [
+        "와 이라노 - '왜 이러느냐'의 경상도 방언",
+        "우찌 - '어떻게'의 경상도 방언",
+        "-교/-노 - 경상도 의문형 어미 (-까/-냐에 해당)",
+        "이 양반 - 상대를 약간 못마땅하게 부르는 표현",
+        "마을 토지 분쟁 관련 주민 대화 맥락"
+      ],
+      "notes": "경상도 방언 어미 체계가 핵심"
+    },
+    {
+      "id": "C-02",
+      "category": "dialect",
+      "category_ko": "방언·사투리",
+      "source": "수리남",
+      "platform": "netflix",
+      "genre": "crime_thriller",
+      "difficulty": "medium",
+      "subtitle": "거 뭣이여. 아따 징하게도 나한테 그런 말을 허드만.",
+      "context_before": ["그 사람이 나한테 그런 말을 했다고?"],
+      "context_after": ["그러니까 내가 뭐라 했냐면..."],
+      "keywords": ["뭣이여", "아따", "징하게", "허드만"],
+      "dialect": "전라도",
+      "expected_explanation_points": [
+        "뭣이여 - '뭐야'의 전라도 방언",
+        "아따 - 전라도 특유 감탄사 (놀람, 답답함 등 다양한 감정)",
+        "징하게 - '지독하게', '심하게'의 전라도 방언",
+        "허드만 - '하더만'의 전라도 방언 (과거 회상 어미)",
+        "해외 범죄 조직 내 한국인 캐릭터의 지역 정체성 표현"
+      ],
+      "notes": "전라도 방언 어휘+어미 혼합"
+    },
+    {
+      "id": "C-03",
+      "category": "dialect",
+      "category_ko": "방언·사투리",
+      "source": "D.P.",
+      "platform": "netflix",
+      "genre": "military_drama",
+      "difficulty": "medium",
+      "subtitle": "야 임마, 니가 뭔데 지 멋대로야. 그기 말이 되나 안 되나 생각이나 해봤나?",
+      "context_before": ["야, 너 뭐 하는 거야?"],
+      "context_after": ["죄송합니다!"],
+      "keywords": ["임마", "그기", "-나 어미"],
+      "dialect": "경상도+군대",
+      "expected_explanation_points": [
+        "임마 - '이놈아'의 줄임말, 경상도 비속어적 호칭",
+        "그기 - '거기', '그것이'의 경상도 방언",
+        "-나 어미 - 경상도식 반문 표현",
+        "군대 내 상하 관계에서 상급자가 하급자를 압박하는 맥락",
+        "군대 특유의 권위주의적 언어 문화"
+      ],
+      "notes": "군대 문화 + 경상도 방언 교차"
+    },
+    {
+      "id": "C-04",
+      "category": "dialect",
+      "category_ko": "방언·사투리",
+      "source": "나의 아저씨",
+      "platform": "jtbc",
+      "genre": "human_drama",
+      "difficulty": "easy",
+      "subtitle": "거 뭐시냐, 그냥 쉬었다 가유. 우리 동네 사람들이 다 그라잖유.",
+      "context_before": ["어디 가세요?"],
+      "context_after": ["감사합니다."],
+      "keywords": ["-유", "-잖유", "그라잖유"],
+      "dialect": "충청도",
+      "expected_explanation_points": [
+        "-유/-잖유 - 충청도 특유의 부드러운 종결 어미",
+        "그라잖유 - '그러잖아요'의 충청도 방언",
+        "충청도 방언의 느긋하고 여유로운 어감이 인물의 성격과 연결",
+        "동네 어른이 주인공에게 친근감을 표현하는 장면"
+      ],
+      "notes": "충청도 어미가 캐릭터 심리와 연결되는 케이스"
+    },
+    {
+      "id": "C-05",
+      "category": "dialect",
+      "category_ko": "방언·사투리",
+      "source": "오징어 게임",
+      "platform": "netflix",
+      "genre": "survival_thriller",
+      "difficulty": "easy",
+      "subtitle": "아 씨발, 나 이거 안 해. 한 번만 더 이러면 나 진짜 가는 수가 있어.",
+      "context_before": ["야, 또 그러면 어떡해."],
+      "context_after": ["알았어, 알았어. 내가 잘못했잖아."],
+      "keywords": ["가는 수가 있다"],
+      "dialect": "서울·수도권 하위계층",
+      "expected_explanation_points": [
+        "가는 수가 있다 - '(여기서) 떠날 수도 있다', 강한 경고성 발언",
+        "서울 하층민 캐릭터의 거친 언어 사용 맥락",
+        "생존 게임에서 극도의 스트레스 상황 속 감정 폭발",
+        "비속어 사용이 캐릭터의 절박함과 계층을 드러냄"
+      ],
+      "notes": "넷플릭스 글로벌 흥행작 - 외국인 시청자 설명 수요 높음"
+    }
+  ]
+}
